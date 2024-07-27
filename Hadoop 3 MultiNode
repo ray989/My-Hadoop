@@ -129,6 +129,8 @@ sudo service ssh restart
 # Configure .profile (make sure you are on NN) 
  nano .profile
  eval `ssh-agent` ssh-add /home/hduser/.ssh/abc.pem
+cd
+sudo chmod 600 rayyan.pem
 
  source .profile
 
